@@ -1,0 +1,154 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+    margin: auto;
+    padding-top: 5rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.form-info {
+    padding-bottom: 2rem ;
+}
+
+.info-p {
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.div-name-input, .div-email-input, .div-msg-input{
+    padding-right: 20px;
+}
+
+.info-sub {
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 800px;
+}
+
+.input-name {
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.input-email {
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.message {
+    margin-right: 12.8px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    resize: none;
+    border-radius: 4px;
+}
+
+.all-in-one {
+
+    width: 100%;
+}
+
+.btn-form {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.45rem; 
+    padding-bottom: 0.45rem; 
+    margin-top: -.1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:940px) {
+.contact {
+    padding-left: 20px;
+}
+    .form {   
+        margin: auto;
+        width: 100%;
+       padding-left: 0px;
+    }
+
+    .info-p {
+        font-size: 2.2rem;
+    }
+
+    .info-sub{
+        font-size: 1.1rem;
+    }
+
+    .form-info{
+        padding-bottom: 0px;
+    }
+
+    .btn-form {
+        margin: auto;
+        width: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .form {
+        margin: auto;
+        width: 100%;
+     
+    }
+
+    .contact {
+        margin: auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .input-name {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .all-in-one{
+        margin: auto;
+    }
+
+
+
+    .input-email  {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+    .message { 
+        width: 100%;
+        margin-right: 0px;
+        
+    }
+
+   
+}
