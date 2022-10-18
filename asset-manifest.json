@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daniela-pana-florist/static/css/main.39a0d7f2.css",
-    "main.js": "/daniela-pana-florist/static/js/main.43e340aa.js",
+    "main.js": "/daniela-pana-florist/static/js/main.5041156a.js",
     "static/media/daniela2.JPG": "/daniela-pana-florist/static/media/daniela2.e1185aef29d734872a28.JPG",
     "static/media/flower2.jpeg": "/daniela-pana-florist/static/media/flower2.261b52db5f79b917de1c.jpeg",
     "static/media/user2.png": "/daniela-pana-florist/static/media/user2.c30182bc9beb40e9dba6.png",
@@ -9,10 +9,10 @@
     "static/media/user3.png": "/daniela-pana-florist/static/media/user3.b137939eb251578a884a.png",
     "index.html": "/daniela-pana-florist/index.html",
     "main.39a0d7f2.css.map": "/daniela-pana-florist/static/css/main.39a0d7f2.css.map",
-    "main.43e340aa.js.map": "/daniela-pana-florist/static/js/main.43e340aa.js.map"
+    "main.5041156a.js.map": "/daniela-pana-florist/static/js/main.5041156a.js.map"
   },
   "entrypoints": [
     "static/css/main.39a0d7f2.css",
-    "static/js/main.43e340aa.js"
+    "static/js/main.5041156a.js"
   ]
 }
