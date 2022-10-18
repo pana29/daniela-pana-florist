@@ -31,13 +31,13 @@ const Contact = () => {
             <div className="all-in-one">
               <div className="toate">
                 <div className="div-name-input">
-            <input type="text" placeholder='Nume si Prenume' name='name' className='input-name' name='user_name'/>
+            <input type="text" placeholder='Nume si Prenume'  className='input-name' name='user_name'/>
             </div>
             <div className="div-email-input">
-            <input type="email" placeholder='Adresa Email' name='email' className='input-email' name='user_email'/>
+            <input type="email" placeholder='Adresa Email'  className='input-email' name='user_email'/>
             </div>
             <div className="div-msg-input">
-            <textarea name="message" rows="7" className='message' placeholder='Mesajul Tau' name='message'></textarea>
+            <textarea  rows="7" className='message' placeholder='Mesajul Tau' name='message'></textarea>
             </div>
             <button className='btn-form' value='send' type="submit" onSubmit={sendEmail}>Trimite</button>
             </div>
